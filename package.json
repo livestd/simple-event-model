@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Simple Event Model",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "files": [
     "build",
     "README.md",
@@ -10,7 +11,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preversion": "rm -rf build",
+    "version": "npm run build"
   },
   "keywords": [
     "events",
