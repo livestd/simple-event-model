@@ -6,7 +6,7 @@ Simple event model
 ```
 npm install --save @livestd/simple-event-model
 ```
-
+Simple Event Model
 ## Usage
 
 ```js
